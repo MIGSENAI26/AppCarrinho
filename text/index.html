@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../design/style.css">
+    <script src="../javaScript/script.js" defer></script>
+    <link rel="icon" type="image/png" href="../icons/carrinho-de-compras (4).png">
+    <title>Loja de compras</title>
+</head>
+<body>
+    <header id="voltar">
+        <div class="header-title">
+            <img src="../icons/bolsa-de-compras.png" alt="Sacola de compras">
+            <h1>Loja de Compras</h1>
+            <img src="../icons/bolsa-de-compras.png" alt="Sacola de compras">
+        </div>
+    </header>
+
+    <main>
+        <section class="login-container">
+           <h2>Login</h2>
+           <div class="input-container">
+                <div class="input-campo">
+                    <label for="login">Usuário</label><br>
+                    <input type="text" name="login" id="input-usuario">
+                </div>
+                <div class="input-campo">
+                    <label for="senha">Senha</label><br>
+                    <input type="text" name="senha" id="input-senha">
+                </div>
+                <div class="input-campo">
+                    <button id="botaoEntrar">Entrar</button>
+                </div>
+           </div>
+        </section>
+
+        <section class="link">
+            <a href="#aplicacao-container">Colocar produtos no carrinho</a>
+        </section>
+
+        <section id="aplicacao-container">
+            <h2 id="nome-usuario"></h2>
+            <div class="input-container">
+                <div class="input-campo">
+                    <label for="produto">Produto</label><br>
+                    <input type="text" name="produto" id="produto">
+                    <label for="preco">Preço</label><br>
+                    <input type="number" name="preco" id="preco">
+                    <button id="adicionar">Adicionar</button>
+                </div>
+
+                <ul id="lista" data-list></ul>
+
+                <div class="input-campo">
+                    <a href="#voltar"><button id="botaoSair">Sair</button></a>
+                </div>
+           </div>
+        </section>
+
+        <section class="espaco"></section>
+    </main>
+</body>
+</html>

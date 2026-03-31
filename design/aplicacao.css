@@ -1,0 +1,31 @@
+#aplicacao-container{
+    width: 350px;
+    background-color: var(--amarelo);
+    border-radius: 10px;
+    margin: 70px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#adicionar{
+    margin-top: 25px;
+}
+
+#nome-usuario{
+    font-family: var(--fontTitle);
+}
+
+.espaco{
+    height: 200px;
+}
+
+.task{
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#produto{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url(./login.css);
+@import url(./aplicacao.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fontTitle: "Bebas Neue", sans-serif;
+    --fontPadrao: "Roboto Mono", monospace;
+    --vermelho: #ff0000;
+    --azulAcinzentado: #272932;
+    --amarelo: #fdf500;
+    --branco: white;
+    --preto: black;
+}
+
+body{
+    font-family: var(--fontPadrao);
+}
+
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    background-image: linear-gradient(90deg, var(--branco), var(--vermelho), var(--vermelho), var(--branco));
+    font-family: var(--fontTitle);
+    color: var(--branco);
+}
+
+header img{
+    width: 65px;
+}
+
+.header-title{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.link{
+    width: 100%;
+    height: 50px;
+    background-color: var(--branco);
+    margin-bottom: 600px;
+    text-align: center;
+    padding: 10px;
+}
+
+.link a{
+    font-size: 20px;
+    background-color: var(--vermelho);
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--branco);
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+    transition-duration: 0.3s;
+}
+
+.link a:hover{
+    font-size: 22px;
+    padding: 17px;
+    transition-duration: 0.4s;
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
