@@ -94,11 +94,9 @@ window.addEventListener("storage", (evento) => {
     if (evento.key === "usuario") {
         if (!evento.newValue) {
             produtos = []; 
-            alternarTelas(); 
             renderizarProdutos();
         } else {
             atualizarLogin();
-            alternarTelas();
         }
     }
 
